@@ -12,26 +12,177 @@ EventSuraksha is a cutting-edge event ticketing platform leveraging blockchain t
 - **Data Analytics**: Provides valuable insights for event organizers to optimize planning and marketing strategies.
 
 ## Getting Started
-### Prerequisites
-- A modern web browser for accessing the web platform.
-- Android or iOS device for using the mobile app.
 
-### Installation
-1. **Web Platform**: Visit [EventSuraksha Web Platform](https://www.eventsuraksha.com) and create an account.
-2. **Mobile App**:
-   - Download the EventSuraksha app from the [Google Play Store](https://play.google.com) or [Apple App Store](https://apple.com/app-store).
-   - Install the app and follow the on-screen instructions to create an account.
+To get started with the EventSuraksha project, follow these steps:
 
-### Usage
-1. **Event Organizers**:
-   - Log in to your EventSuraksha account.
-   - Navigate to the event management dashboard to create and manage your events.
-   - Use the analytics tools to track ticket sales and gain insights into attendee demographics and behaviors.
+1. *Clone the repository*:
+   bash
+   git clone https://github.com/yourusername/EventSuraksha.git
+   cd EventSuraksha
+   
 
-2. **Event Attendees**:
-   - Log in to your EventSuraksha account via the web platform or mobile app.
-   - Browse upcoming events and purchase tickets securely.
-   - Access your purchased tickets within the app or through the web platform.
+2. *Install dependencies for each part of the project*:
+   - Backend: cd backend && npm install
+   - Frontend: cd frontend && npm install
+   - Mobile: cd mobile && npm install
+   - Blockchain: cd blockchain && npm install
+
+3. *Set up environment variables*:
+   Create a .env file in the backend, frontend, and mobile directories with the necessary configuration variables. Refer to .env.example in each directory for the required variables.
+
+## Installation
+
+### Backend
+
+1. *Navigate to the backend directory*:
+   bash
+   cd backend
+   
+
+2. *Install dependencies*:
+   bash
+   npm install
+   
+
+3. *Run the backend server*:
+   bash
+   npm start
+   
+
+### Frontend
+
+1. *Navigate to the frontend directory*:
+   bash
+   cd frontend
+   
+
+2. *Install dependencies*:
+   bash
+   npm install
+   
+
+3. *Run the frontend development server*:
+   bash
+   npm start
+   
+
+### Mobile
+
+1. *Navigate to the mobile directory*:
+   bash
+   cd mobile
+   
+
+2. *Install dependencies*:
+   bash
+   npm install
+   
+
+3. *Run the mobile app*:
+   - For Android: npx react-native run-android
+   - For iOS: npx react-native run-ios
+
+### Blockchain
+
+1. *Navigate to the blockchain directory*:
+   bash
+   cd blockchain
+   
+
+2. *Install dependencies*:
+   bash
+   npm install
+   
+
+3. *Compile the smart contracts*:
+   bash
+   truffle compile
+   
+
+4. *Deploy the smart contracts*:
+   bash
+   truffle migrate
+   
+
+## Usage
+
+Once all components are set up and running, you can access the platform as follows:
+
+- *Frontend*: Open http://localhost:3000 in your browser.
+- *Backend*: API available at http://localhost:5000.
+- *Mobile*: Use an emulator or a physical device to run the app.
+- *Blockchain*: Smart contracts deployed on the configured blockchain network.
+
+## Contributing
+
+We welcome contributions to EventSuraksha! To contribute, please follow these steps:
+
+1. *Fork the repository*.
+2. *Create a new branch* for your feature or bugfix:
+   bash
+   git checkout -b feature-or-bugfix-name
+   
+3. *Commit your changes*:
+   bash
+   git commit -m "Description of your changes"
+   
+4. *Push to your branch*:
+   bash
+   git push origin feature-or-bugfix-name
+   
+5. *Open a pull request* with a detailed description of your changes.
+
+## Testing
+
+To run tests for each component of the project:
+
+### Backend
+
+1. *Navigate to the backend directory*:
+   bash
+   cd backend
+   
+
+2. *Run tests*:
+   bash
+   npm test
+   
+
+### Frontend
+
+1. *Navigate to the frontend directory*:
+   bash
+   cd frontend
+   
+
+2. *Run tests*:
+   bash
+   npm test
+   
+
+### Mobile
+
+1. *Navigate to the mobile directory*:
+   bash
+   cd mobile
+   
+
+2. *Run tests*:
+   bash
+   npm test
+   
+
+### Blockchain
+
+1. *Navigate to the blockchain directory*:
+   bash
+   cd blockchain
+   
+
+2. *Run tests*:
+   bash
+   truffle test
+
 
 ## Compliance and Security
 - **Compliance**: Adheres to local regulations on event ticketing, consumer protection, and data privacy.
