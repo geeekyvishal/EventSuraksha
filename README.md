@@ -2,7 +2,7 @@
 # EventSuraksha - Secure and Fair Event Ticketing Platform
 
 ## Overview
-EventSuraksha is a cutting-edge event ticketing platform leveraging blockchain technology to ensure secure, transparent, and fair ticket transactions. Our platform is designed to protect both event organizers and attendees from fraud, ticket hoarding, and price inflation, providing a seamless and trustworthy ticketing experience.
+EventSuraksha is a cutting-edge event ticketing platform leveraging blockchain technology to ensure secure, transparent, and fair ticket transactions. Our platform is designed to protect both event organizers and attendees from fraud, ticket hoarding, and providing a seamless and trustworthy ticketing experience.
 
 ## Features
 - **Blockchain Security**: Immutable and transparent ticket records ensure the authenticity and security of each ticket.
