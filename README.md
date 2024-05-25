@@ -189,10 +189,6 @@ To run tests for each component of the project:
 - **Transparency**: Ensures transparent ticket sales, pricing, and distribution in line with consumer protection laws.
 - **Security Standards**: Follows industry standards for data security and blockchain implementation.
 
-## Support
-For any issues or questions, please contact our support team:
-- Email: support@eventsuraksha.com
-- Phone: +1-800-123-4567
 
 ## Contributing
 We welcome contributions from the community. Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
