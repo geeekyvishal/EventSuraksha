@@ -17,7 +17,7 @@ To get started with the EventSuraksha project, follow these steps:
 
 1. *Clone the repository*:
    bash
-   git clone https://github.com/yourusername/EventSuraksha.git
+   git clone https://github.com/geeekyvishal/EventSuraksha.git
    cd EventSuraksha
    
 
