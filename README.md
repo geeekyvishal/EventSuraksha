@@ -10,7 +10,7 @@ EventSuraksha is a cutting-edge event ticketing platform leveraging blockchain t
 - **User-Friendly Interfaces**: Easy-to-use mobile app and web platform for managing and purchasing tickets.
 - **Data Analytics**: Provides valuable insights for event organizers to optimize planning and marketing strategies.
 
-### Overall System Architecture
+## Overall System Architecture
 
 1. User interacts with the Frontend.
 2. User interacts with the Mobile app.
