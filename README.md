@@ -10,6 +10,38 @@ EventSuraksha is a cutting-edge event ticketing platform leveraging blockchain t
 - **User-Friendly Interfaces**: Easy-to-use mobile app and web platform for managing and purchasing tickets.
 - **Data Analytics**: Provides valuable insights for event organizers to optimize planning and marketing strategies.
 
+### Overall System Architecture
+
+1. User interacts with the Frontend.
+2. User interacts with the Mobile app.
+3. Frontend sends requests to the Backend.
+4. Mobile app sends requests to the Backend.
+5. Backend interacts with the Blockchain.
+6. Backend stores data in the Database.
+7. Blockchain stores tickets and transactions in the Ledger.
+
+### Web Development (MERN Stack)
+
+1. User interacts with the React Frontend.
+2. React Frontend fetches data from the Node Backend.
+3. Node Backend performs CRUD operations on MongoDB.
+4. Node Backend communicates with Hyperledger Blockchain.
+
+### Mobile Development (Flutter)
+
+1. User uses the Flutter App.
+2. Flutter App sends API requests to the Backend.
+3. Backend responds with data to the Flutter App.
+4. Backend communicates with Hyperledger Blockchain.
+
+### Blockchain (Hyperledger)
+
+1. Backend submits transactions to the Hyperledger Network.
+2. Hyperledger Network processes transactions through Smart Contracts.
+3. Smart Contracts update the Ledger.
+4. Ledger returns the transaction status to the Backend.
+
+
 ## Contributing
 
 We welcome contributions to EventSuraksha! To contribute, please follow these steps:
@@ -34,13 +66,6 @@ We welcome contributions to EventSuraksha! To contribute, please follow these st
 - **Compliance**: Adheres to local regulations on event ticketing, consumer protection, and data privacy.
 - **Transparency**: Ensures transparent ticket sales, pricing, and distribution in line with consumer protection laws.
 - **Security Standards**: Follows industry standards for data security and blockchain implementation.
-
-
-## Contributing
-We welcome contributions from the community. Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ---
 
